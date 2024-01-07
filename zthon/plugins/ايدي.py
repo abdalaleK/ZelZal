@@ -37,11 +37,11 @@ from . import spamwatch
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
 # code by t.me/zzzzl1l
-ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت زدثــون"
+ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت الزعيم"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ "
 ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ ᶻᵗʰᵒᶰ ─┄─┄─┄─⋆"
-zed_dev = (5176749470, 1895219306, 925972505, 5280339206, 5426390871)
-zel_dev = (5176749470, 5426390871)
+zed_dev = (6700336976, 1895219306, 925972505, 5280339206, 5426390871)
+zel_dev = (6700336976, 5426390871)
 zelzal = (925972505, 1895219306, 5280339206)
 
 
@@ -108,8 +108,8 @@ async def fetch_info(replied_user, event):
     username = "@{}".format(username) if username else ("لا يـوجـد")
     user_bio = "لا يـوجـد" if not user_bio else user_bio
 # Copyright (C) 2021 Zed-Thon . All Rights Reserved
-# الـرتب الوهميـه & البريميـوم كتـابـة الكـود - زلــزال الـهيبــه @zzzzl1l
-    if user_id in zelzal: # code by t.me/zzzzl1l
+# الـرتب الوهميـه & البريميـوم كتـابـة الكـود - زلــزال الـهيبــه @T_5_G
+    if user_id in zelzal: # code by t.me/T_5_G
         rotbat = "⌁ مطـور السـورس 𓄂𓆃 ⌁" 
     elif user_id in zel_dev:
         rotbat = "⌁ مطـور مسـاعـد 𐏕⌁" 
